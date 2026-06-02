@@ -1,0 +1,64 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{CERTIFICATE BY THE COMPANY}{i}{section*.1}%
+\contentsline {section}{CANDIDATE'S DECLARATION}{iv}{section*.2}%
+\contentsline {section}{ABSTRACT}{v}{section*.3}%
+\contentsline {section}{ACKNOWLEDGMENT}{vi}{section*.4}%
+\contentsline {section}{ABOUT THE COMPANY}{vii}{section*.5}%
+\contentsline {section}{LIST OF FIGURES}{viii}{section*.6}%
+\contentsline {section}{LIST OF TABLES}{ix}{section*.8}%
+\contentsline {section}{INDEX}{x}{section*.10}%
+\contentsline {section}{1. Introduction}{1}{section*.12}%
+\contentsline {subsection}{1.1 Introduction to Organization}{1}{section*.13}%
+\contentsline {subsection}{1.2 Introduction to Project}{2}{section*.14}%
+\contentsline {subsection}{1.3 Project Category}{3}{section*.15}%
+\contentsline {subsection}{1.4 Objectives}{3}{section*.16}%
+\contentsline {subsection}{1.5 Problem Formulation}{4}{section*.17}%
+\contentsline {subsection}{1.6 Identification/Reorganization of Need}{4}{section*.18}%
+\contentsline {subsection}{1.7 Existing System}{5}{section*.19}%
+\contentsline {subsection}{1.8 Proposed System}{5}{section*.20}%
+\contentsline {subsection}{1.9 Unique Features of the System}{6}{section*.21}%
+\contentsline {subsection}{1.10 SDG Mapping}{7}{section*.22}%
+\contentsline {section}{2. Requirement Analysis and System Specification}{8}{section*.24}%
+\contentsline {subsection}{2.1 Feasibility Study}{8}{section*.25}%
+\contentsline {subsection}{2.2 Software Requirement Specification}{9}{section*.26}%
+\contentsline {subsubsection}{2.2.1 Data Requirements}{10}{section*.27}%
+\contentsline {subsubsection}{2.2.2 Functional Requirements}{10}{section*.28}%
+\contentsline {subsubsection}{2.2.3 Non-Functional Requirements}{12}{section*.29}%
+\contentsline {subsection}{2.3 Validation}{14}{section*.30}%
+\contentsline {subsection}{2.4 Expected Hurdles}{15}{section*.31}%
+\contentsline {subsection}{2.5 SDLC Model to be used: Agile Model}{15}{section*.33}%
+\contentsline {subsubsection}{2.5.1 Justification for Adopting the Agile Model}{15}{section*.34}%
+\contentsline {subsubsection}{2.5.2 Sprint-wise Development Overview}{17}{section*.35}%
+\contentsline {section}{3. System Design}{19}{section*.36}%
+\contentsline {subsection}{3.1 Design Approach}{19}{section*.37}%
+\contentsline {subsection}{3.2 System Architecture}{19}{section*.38}%
+\contentsline {subsection}{3.3 Detail Design}{20}{section*.39}%
+\contentsline {subsection}{3.4 User Interface Design}{21}{section*.40}%
+\contentsline {subsection}{3.5 Database Design}{23}{section*.41}%
+\contentsline {subsubsection}{3.5.1 Firestore Collection Structure}{23}{section*.42}%
+\contentsline {subsubsection}{3.5.2 Data Relationships}{25}{section*.43}%
+\contentsline {subsubsection}{3.5.3 ER Diagram}{26}{section*.44}%
+\contentsline {subsubsection}{3.5.4 Database Security and Access Control}{26}{section*.46}%
+\contentsline {subsection}{3.6 Methodology}{27}{section*.47}%
+\contentsline {section}{4. Implementation, Testing, and Maintenance}{29}{section*.48}%
+\contentsline {subsection}{4.1 Tools \& Technologies Used}{29}{section*.49}%
+\contentsline {subsection}{4.2 Coding Standards}{30}{section*.50}%
+\contentsline {subsection}{4.3 Project Scheduling}{31}{section*.51}%
+\contentsline {subsubsection}{4.3.1 Project Duration}{32}{section*.52}%
+\contentsline {subsubsection}{4.3.2 Team Responsibilities}{33}{section*.53}%
+\contentsline {subsubsection}{4.3.3 Detailed Development Phases}{33}{section*.54}%
+\contentsline {subsection}{4.4 Testing Techniques}{35}{section*.55}%
+\contentsline {subsubsection}{4.4.1 Testing Strategy}{35}{section*.56}%
+\contentsline {subsubsection}{4.4.2 Testing Tools Used}{36}{section*.57}%
+\contentsline {subsubsection}{4.4.3 Error and Edge Case Testing}{37}{section*.58}%
+\contentsline {subsection}{4.5 Test Cases used in the Project}{37}{section*.59}%
+\contentsline {section}{5. Contribution to Sustainable Development Goals}{40}{section*.60}%
+\contentsline {section}{6. Results \& Discussions}{42}{section*.61}%
+\contentsline {subsection}{6.1 Results Overview}{42}{section*.62}%
+\contentsline {subsection}{6.2 User Interface Representation}{42}{section*.63}%
+\contentsline {subsection}{6.3 Snapshots}{44}{section*.64}%
+\contentsline {subsection}{6.4 Backend Representation}{46}{section*.69}%
+\contentsline {section}{7. Conclusion and Future Scope}{48}{section*.70}%
+\contentsline {subsection}{7.1 Conclusion}{48}{section*.71}%
+\contentsline {subsection}{7.2 Future Scope}{48}{section*.72}%
+\contentsline {section}{8. References}{51}{Item.13}%
