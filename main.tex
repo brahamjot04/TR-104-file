@@ -126,7 +126,7 @@ The six month industrial training Viva–Voce Examination of \rule{3cm}{0.4pt} h
 \end{center}
 \doublespacing
 Trackit is a SaaS-based Inventory Management System developed specifically for tyre dealers to simplify and centralize the process of managing customer records, inventory, and sales data. Traditionally, many dealers maintain customer and sales records manually through applications such as WhatsApp or physical registers, which leads to inefficiency, data redundancy, and difficulty in tracking customer history. The objective of this project is to reduce manual effort and provide a structured digital platform for managing business operations efficiently.\\[0.25cm]
-The system consists of a NextJS \cite{nextjs}-based web portal and a Flutter \cite{flutter}-based cross-platform mobile application integrated through Firebase \cite{firebase} services. The web portal allows dealers to securely log in, create worker accounts, manage permissions, and monitor overall shop inventory and operations. The mobile application enables both dealers and workers to access features based on assigned permissions. Key functionalities include customer management, daybook maintenance, sales tracking, inventory management using room and stack organization, report generation, and daily sales monitoring. The application also includes features such as dark mode support and a cart-based sales logging system for improved usability.\\[0.25cm]
+The system consists of a NextJS {nextjs}-based web portal and a Flutter \cite{flutter}-based cross-\citeplatform mobile application integrated through Firebase \cite{firebase} services. The web portal allows dealers to securely log in, create worker accounts, manage permissions, and monitor overall shop inventory and operations. The mobile application enables both dealers and workers to access features based on assigned permissions. Key functionalities include customer management, daybook maintenance, sales tracking, inventory management using room and stack organization, report generation, and daily sales monitoring. The application also includes features such as dark mode support and a cart-based sales logging system for improved usability.\\[0.25cm]
 The project utilizes Flutter for mobile application development, NextJS for the web portal, Firebase for authentication, database management, hosting, and real-time synchronization, while Vercel \cite{vercel} is used for deploying the web application. Trackit provides an efficient, scalable, and user-friendly solution for tyre dealers to digitally manage their business operations and customer records from a centralized platform.
 
 
@@ -370,7 +370,7 @@ The Software Requirement Specification (SRS) formally documents the functional a
 \addcontentsline{toc}{subsubsection}{2.2.3 Non-Functional Requirements}
 
 \vspace{0.25em}
-\textit{Performance Requirements}
+\textbf{2.2.3.1 Performance Requirements}
 \begin{itemize}
     \item Application screens shall load and render within two seconds under standard network conditions.
     \item Real-time data updates shall be reflected across all connected devices within three seconds of a write operation being committed to Firestore.
@@ -379,7 +379,7 @@ The Software Requirement Specification (SRS) formally documents the functional a
 \end{itemize}
 
 \vspace{0.25em}
-\textit{Reliability and Dependability Requirements}
+\textbf{2.2.3.2 Reliability and Dependability Requirements}
 \begin{itemize}
     \item The system shall ensure data integrity during concurrent multi-device access through Firestore's atomic transaction model and real-time synchronization mechanisms.
     \item Comprehensive error handling shall be implemented throughout the application to manage network interruptions, authentication failures, and invalid data inputs gracefully, without causing application crashes or data loss.
@@ -387,7 +387,7 @@ The Software Requirement Specification (SRS) formally documents the functional a
 \end{itemize}
 
 \vspace{0.25em}
-\textit{Maintainability Requirements}
+\textbf{2.2.3.3 Maintainability Requirements}
 \begin{itemize}
     \item The codebase shall adhere to a modular architecture, maintaining clear separation between the presentation layer, business logic layer, and data access layer to facilitate independent maintenance and future enhancements.
     \item Firestore collections and document schemas shall be designed to accommodate future feature additions without necessitating destructive schema migrations.
@@ -395,7 +395,7 @@ The Software Requirement Specification (SRS) formally documents the functional a
 \end{itemize}
 
 \vspace{0.25em}
-\textit{Security Requirements}
+\textbf{2.2.3.4 Security Requirements}
 \begin{itemize}
     \item All user credentials shall be managed exclusively through Firebase Authentication, with passwords stored in encrypted form and never exposed within the application layer.
     \item Firestore security rules shall be configured to enforce strict role-based data access, preventing workers from reading or modifying collections outside the scope of their assigned permissions.
@@ -404,7 +404,7 @@ The Software Requirement Specification (SRS) formally documents the functional a
 \end{itemize}
 
 \vspace{0.25em}
-\textit{Usability and Look and Feel Requirements}
+\textbf{2.2.3.5 Usability and Look and Feel Requirements}
 \begin{itemize}
     \item The mobile application interface shall be clean, uncluttered, and optimized for rapid data entry and retrieval in a fast-paced shop environment.
     \item The web portal shall be fully responsive, rendering correctly and remaining functionally complete across varying screen sizes and modern web browsers.
@@ -413,7 +413,7 @@ The Software Requirement Specification (SRS) formally documents the functional a
 \end{itemize}
 
 \vspace{0.25em}
-\textit{Scalability Requirements}
+\textbf{2.2.3.6 Scalability Requirements}
 \begin{itemize}
     \item The system architecture shall be capable of accommodating a growing volume of customer records, inventory entries, and transaction data without degradation in query response times, supported by appropriate Firestore indexing strategies.
     \item The SaaS-based deployment model shall allow onboarding of new dealer accounts without requiring modifications to the underlying system architecture or codebase.
